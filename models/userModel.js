@@ -4,7 +4,7 @@ const userSchema = new mongoose.Schema(
   {
     name: {
       type: String,
-      required: true,  
+      required: true,
       trim: true,
     },
     email: {
@@ -20,20 +20,20 @@ const userSchema = new mongoose.Schema(
       type: String,
       required: true,
     },
-    answer: {
-      type: String,
+    address: {
+      type: {},
       required: true,
     },
-    address: {
+    answer: {
       type: String,
       required: true,
     },
     role: {
       type: Number,
       default: 0,
-    }
+    },
   },
   { timestamps: true }
 );
 
-export default mongoose.model("user", userSchema);
+export default mongoose.model("users", userSchema);
