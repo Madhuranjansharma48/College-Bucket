@@ -1,4 +1,29 @@
-                                                                                
+# 🛍️ CollegeBazaar – Campus Marketplace Platform
+
+CollegeBazaar is a MERN stack web application designed for college students to buy, sell, or exchange used items like books, gadgets, bicycles, etc., within their campus community. It offers secure authentication, listing management, and real-time communication.
+
+## 🚀 Features
+
+- 🔐 User Signup/Login with JWT Authentication
+- 📦 Post Items for Sale with Images, Descriptions, Prices
+- 🔍 Search & Filter Listings by Category or Keyword
+- ✉️ Contact Sellers via Messaging (basic)
+- 🗂️ Personal Dashboard for Managing Listings
+- 🖼️ Image Upload with Preview
+- 📱 Fully Responsive UI
+
+## 🛠 Tech Stack
+
+- **Frontend:** React.js, Tailwind CSS, Axios  
+- **Backend:** Node.js, Express.js, JWT, bcrypt  
+- **Database:** MongoDB, Mongoose  
+- **Others:** Cloudinary (image upload), Multer
+
+
+
+---------------------------------------------------------------------------------------or
+
+
 # Getting Started with Create React App
 
 This project was bootstrapped with [Create React App](https://github.com/facebook/create-react-app).
